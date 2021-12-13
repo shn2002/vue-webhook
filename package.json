@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pm2 start ./webhooks.js --name webhook --watch",
+    "stop": "pm2 stop webhook"
   },
   "keywords": [],
   "author": "",
